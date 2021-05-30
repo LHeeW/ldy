@@ -1,0 +1,16 @@
+/* header의 전체 사이즈 설정 */
+.header-border{
+    margin: 0 auto;
+    width: 1600px;
+    height: 300px;
+}
+
+/* header 내부의 위쪽 배너 */
+.header-top{
+    background-color: #0f2139;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
