@@ -4,9 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lee-YD</title>
+    <link rel="stylesheet" href="total.css" type="text/css">
+    <link rel="stylesheet" href="header_top.css" type="text/css">
+    <link rel="stylesheet" href="header_title_login.css" type="text/css">
+    <link rel="stylesheet" href="header_nav.css" type="text/css">
+    <link rel="stylesheet" href="container_slideshow.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- header part -->
+    <div id="header-wrap">
+        <div id="header">
+            <div class="header-border">
+                
+                <!-- haeder 상단 배너 -->
+                <div class="header-top">HELLO WORLD!</div>
+
+                <!-- header site-title / navigation bar -->
+                <div class="header-bottom">
+                    
+                    <!-- site / login -->
+                    <div class="title-wrap">
+                        <!-- title 위치잡기 -->
+                        <div class="title-position">
+                            <!-- site -->
+                            <div class="site">
+                                <div class="icon-box">
+                                    <i class="material-icons" style="font-size:65px; color:white;">directions_bike</i>
+                                </div>
+                                <div class="site-name">
+                                    <div class="upper-name">이동영동</div>
+                                    <div class="lower-name">LDYD</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- login 위치잡기 -->
+                        <div class="login-position">
+                            <!-- login -->
+                            <div class="login">
+                                <div class="login-btn">로그인</div>
+                                <div class="signup-btn">회원가입</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- navigation bar -->
+                <div class="nav-wrap">
+                    <div class="nav">
+                        <div class="nav-menu">
+                            <div class="nav-menu-title">MENU1</div>
+                            <div class="dropdown-content">
+                                <a href="#">이동영</a>
+                                <a href="#">동영이</a>
+                                <a href="#">영이동</a>
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <div class="nav-menu-title">MENU2</div>
+                            <div class="dropdown-content">
+                                <a href="#">이동영</a>
+                                <a href="#">동영이</a>
+                                <a href="#">영이동</a>
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <div class="nav-menu-title">MENU3</div>
+                            <div class="dropdown-content">
+                                <a href="#">이동영</a>
+                                <a href="#">동영이</a>
+                                <a href="#">영이동</a>
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <div class="nav-menu-title">MENU4</div>
+                            <div class="dropdown-content">
+                                <a href="#">이동영</a>
+                                <a href="#">동영이</a>
+                                <a href="#">영이동</a>
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <div class="nav-menu-title">MENU5</div>
+                            <div class="dropdown-content">
+                                <a href="#">이동영</a>
+                                <a href="#">동영이</a>
+                                <a href="#">영이동</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container part -->
+    <div id="container-wrap">
+
+        <!-- slide show -->
+        <div class="slideshow-position">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <div class="img">이미지1</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <div class="img">이미지2</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <div class="img">이미지3</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <div class="img">이미지4</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <div class="img">이미지5</div>
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+              </div>
+        </div>
+        <script src="slideshow.js"></script>
+
+        
+    </div>
 </body>
 </html>
