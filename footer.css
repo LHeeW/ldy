@@ -1,0 +1,12 @@
+#footer{
+    margin: 0 auto;
+    background: rgba(125,125,125,0.7);
+    width: 1600px;
+    height: 150px;
+}
+
+.footer-content{
+    text-align: center;
+    line-height: 150px;
+    letter-spacing: 0.7em;
+}
