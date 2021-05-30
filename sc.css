@@ -1,0 +1,29 @@
+.service{
+    margin: 0 auto 20px;
+    width: 1600px;
+    height: 300px;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: repeat(2, 800px);
+}
+
+.sc-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sc-content{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.service-center{
+    border-right: 1px solid rgb(211, 211, 211);
+}
+
+.service-center, .bank{
+    padding: 20px;
+}

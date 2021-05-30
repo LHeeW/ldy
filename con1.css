@@ -1,0 +1,19 @@
+.content1{
+    margin: 20px auto;
+    width: 1600px;
+    height: 200px;
+}
+
+.content1-grid{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 950px 630px;
+    justify-content: space-between;
+}
+
+.con1-left, .con1-right{
+    background: rgba(100, 100, 100, 0.3);
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+}

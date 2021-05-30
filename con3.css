@@ -1,0 +1,22 @@
+.con3-title{
+    margin: 0 auto 20px;
+    width: 1600px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.con3-flex{
+    margin: 0 auto 20px;
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+}
+
+.con3-content{
+    background: rgba(100,100,100,0.3);
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+}
