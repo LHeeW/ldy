@@ -1,0 +1,47 @@
+.title-wrap{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* title part */
+.site{
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 70px 150px;
+}
+
+.icon-box{
+    width: 70px;
+    border-radius: 10px;
+    background-color:#3c5c85;
+}
+
+.site-name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.upper-name{
+    font-size: 30px;
+}
+
+.lower-name{
+    color: #787b80;
+    font-size: 25px;
+}
+
+/* login part */
+.login-position{
+    width: 150px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn, .signup-btn{
+    cursor: pointer;
+}
